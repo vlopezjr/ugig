@@ -1,5 +1,5 @@
 export * from './bookings/booking-list/booking-list.page';
 export * from './bookings/booking-detail/booking-detail.page';
-/* export * from './artists/artists';
-export * from './venues/venues';
-export * from './promoters/promoters'; */
+export * from './artists/artists.page';
+export * from './venues/venues.page';
+export * from './promoters/promoters.page'; 

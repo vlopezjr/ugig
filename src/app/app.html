@@ -1,15 +1,16 @@
 <ion-menu [content]="content">
   <ion-header>
     <ion-toolbar>
-      <ion-title>uGig Schedule</ion-title>
+      <ion-title>uGig</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-content>
     <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
+      <button menuClose ion-item (click)="goToBookings()">Bookings</button>
+      <button menuClose ion-item (click)="goToArtists()">Artists</button>
+      <button menuClose ion-item (click)="goToVenues()">Venues</button>
+      <button menuClose ion-item (click)="goToPromoters()">Promoters</button>
     </ion-list>
   </ion-content>
 

@@ -6,8 +6,10 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'booking-detail.page.html',
 })
 export class BookingDetailPage {
+  booking: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.booking = this.navParams.data;
   }
 
   ionViewDidLoad() {
