@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-navbar>   
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+      <button ion-item *ngFor="let artist of artists" (click)="goToDetails($event, booking)">{{ artist.name }}</button>   
+    </ion-list>
+  </ion-content>

@@ -1,0 +1,11 @@
+<ion-header>
+    <ion-navbar>   
+    </ion-navbar>
+  </ion-header>
+
+
+<ion-content>
+    <ion-list>
+      <button ion-item *ngFor="let promoter of promoters" (click)="goToDetails($event, booking)">{{ promoter.name }}</button>   
+    </ion-list>
+  </ion-content>
